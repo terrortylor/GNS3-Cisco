@@ -1,0 +1,331 @@
+{
+    "auto_close": true,
+    "auto_open": false,
+    "auto_start": false,
+    "name": "ACL",
+    "project_id": "a31448d0-57c3-47a6-99e6-7cbd11a42d78",
+    "revision": 7,
+    "scene_height": 1000,
+    "scene_width": 2000,
+    "topology": {
+        "computes": [],
+        "drawings": [
+            {
+                "drawing_id": "e78b3a99-2b8e-45d4-afa4-2ccafb515282",
+                "rotation": 0,
+                "svg": "<svg height=\"56\" width=\"81\"><text fill=\"#000000\" fill-opacity=\"1.0\" font-family=\"TypeWriter\" font-size=\"10.0\" font-weight=\"bold\">Loopbacks\n192.168.1.1\n192.168.11.1\n192.168.111.1</text></svg>",
+                "x": -642,
+                "y": -377,
+                "z": 1
+            },
+            {
+                "drawing_id": "1f661241-2f59-4bca-966d-140533e0a998",
+                "rotation": 0,
+                "svg": "<svg height=\"56\" width=\"81\"><text fill=\"#000000\" fill-opacity=\"1.0\" font-family=\"TypeWriter\" font-size=\"10.0\" font-weight=\"bold\">Loopbacks\n192.168.3.1\n192.168.33.1\n192.168.333.1</text></svg>",
+                "x": -73,
+                "y": -376,
+                "z": 1
+            },
+            {
+                "drawing_id": "031a4899-121d-4fc8-8355-04f957bc4e65",
+                "rotation": 0,
+                "svg": "<svg height=\"20\" width=\"54\"><text fill=\"#000000\" fill-opacity=\"1.0\" font-family=\"TypeWriter\" font-size=\"10.0\" font-weight=\"bold\">10.1.12.2</text></svg>",
+                "x": -432,
+                "y": -244,
+                "z": 1
+            },
+            {
+                "drawing_id": "857fab05-16bd-4708-a4c0-e21489d741e9",
+                "rotation": 0,
+                "svg": "<svg height=\"20\" width=\"54\"><text fill=\"#000000\" fill-opacity=\"1.0\" font-family=\"TypeWriter\" font-size=\"10.0\" font-weight=\"bold\">10.1.12.1</text></svg>",
+                "x": -580,
+                "y": -249,
+                "z": 1
+            },
+            {
+                "drawing_id": "eb09a491-88f2-4b07-84e9-115ce61e1c34",
+                "rotation": 0,
+                "svg": "<svg height=\"20\" width=\"54\"><text fill=\"#000000\" fill-opacity=\"1.0\" font-family=\"TypeWriter\" font-size=\"10.0\" font-weight=\"bold\">10.1.23.2</text></svg>",
+                "x": -311,
+                "y": -247,
+                "z": 1
+            },
+            {
+                "drawing_id": "58fcda8f-d9b2-4d20-867b-1b8244f195b4",
+                "rotation": 0,
+                "svg": "<svg height=\"20\" width=\"54\"><text fill=\"#000000\" fill-opacity=\"1.0\" font-family=\"TypeWriter\" font-size=\"10.0\" font-weight=\"bold\">10.1.23.3</text></svg>",
+                "x": -106,
+                "y": -239,
+                "z": 1
+            }
+        ],
+        "links": [
+            {
+                "link_id": "54ff96c0-3faa-4006-ad7e-6a2d8f0cd96d",
+                "nodes": [
+                    {
+                        "adapter_number": 0,
+                        "label": {
+                            "rotation": 0,
+                            "style": "font-family: TypeWriter;font-size: 10.0;font-weight: bold;fill: #000000;fill-opacity: 1.0;",
+                            "text": "f0/0",
+                            "x": 72,
+                            "y": 21
+                        },
+                        "node_id": "c4f953f6-82dd-46e5-bdc0-1909dd83098f",
+                        "port_number": 0
+                    },
+                    {
+                        "adapter_number": 0,
+                        "label": {
+                            "rotation": 0,
+                            "style": "font-family: TypeWriter;font-size: 10.0;font-weight: bold;fill: #000000;fill-opacity: 1.0;",
+                            "text": "f0/0",
+                            "x": -37,
+                            "y": 26
+                        },
+                        "node_id": "b8e59115-1e22-4ec0-8385-368a59712e61",
+                        "port_number": 0
+                    }
+                ]
+            },
+            {
+                "link_id": "86aeab7d-cffd-46a6-814b-a8dd50c9235e",
+                "nodes": [
+                    {
+                        "adapter_number": 0,
+                        "label": {
+                            "rotation": 0,
+                            "style": "font-family: TypeWriter;font-size: 10.0;font-weight: bold;fill: #000000;fill-opacity: 1.0;",
+                            "text": "f0/1",
+                            "x": 75,
+                            "y": 27
+                        },
+                        "node_id": "b8e59115-1e22-4ec0-8385-368a59712e61",
+                        "port_number": 1
+                    },
+                    {
+                        "adapter_number": 0,
+                        "label": {
+                            "rotation": 0,
+                            "style": "font-family: TypeWriter;font-size: 10.0;font-weight: bold;fill: #000000;fill-opacity: 1.0;",
+                            "text": "f0/1",
+                            "x": -32,
+                            "y": 30
+                        },
+                        "node_id": "552597f8-d5c7-4f18-b3c4-d50c74860755",
+                        "port_number": 1
+                    }
+                ]
+            }
+        ],
+        "nodes": [
+            {
+                "compute_id": "local",
+                "console": 5002,
+                "console_type": "telnet",
+                "first_port_name": null,
+                "height": 45,
+                "label": {
+                    "rotation": 0,
+                    "style": "font-family: TypeWriter;font-size: 10.0;font-weight: bold;fill: #000000;fill-opacity: 1.0;",
+                    "text": "R3",
+                    "x": 22,
+                    "y": -25
+                },
+                "name": "R3",
+                "node_id": "552597f8-d5c7-4f18-b3c4-d50c74860755",
+                "node_type": "dynamips",
+                "port_name_format": "Ethernet{0}",
+                "port_segment_size": 0,
+                "properties": {
+                    "auto_delete_disks": true,
+                    "aux": null,
+                    "clock_divisor": 4,
+                    "disk0": 8,
+                    "disk1": 0,
+                    "dynamips_id": 3,
+                    "exec_area": 64,
+                    "idlemax": 500,
+                    "idlepc": "",
+                    "idlesleep": 30,
+                    "image": "c7200-advipservicesk9-mz.122-33.SRD4.image",
+                    "image_md5sum": "e9231dfcc8375b42e80a227d0dc6805b",
+                    "mac_addr": "ca03.6890.0000",
+                    "midplane": "vxr",
+                    "mmap": true,
+                    "npe": "npe-400",
+                    "nvram": 512,
+                    "platform": "c7200",
+                    "power_supplies": [
+                        1,
+                        1
+                    ],
+                    "private_config": "/Users/alex.tylor/GNS3/projects/CCNA/ACL/project-files/dynamips/552597f8-d5c7-4f18-b3c4-d50c74860755/configs/i3_private-config.cfg",
+                    "private_config_content": "\ncrypto RSA-key-pair TP-self-signed-4279256517 0 1504718616\n 30820277 02010030 0D06092A 864886F7 0D010101 05000482 02613082 025D0201 \n 00028181 00BA8430 990F9232 C260529C 181D72FE D976B524 976F0BEE 797B10B8 \n 0C990CB7 0ABDC2B8 F52AC9D9 D28124E1 D3F9B760 A3A51396 DACB3A1A BE31A593 \n 203F4BA1 C6AE3A71 6C167576 47EF10B3 539D1995 0CBCE725 6285A540 AA300D00 \n D253638B 3BE63B33 CC8C431C 8EFBCD8E F8E6C6F4 008F701E 0A7F8C50 A9326749 \n 7FEC36C7 A5020301 00010281 8076FEE7 527FD0B2 79B8A27B DC16CDCB 324ABDFE \n FE6E669A 5AFEDD07 CF61C5EE F1F76748 41826F0D 7D73CF68 14A97909 3ADE92C4 \n E80A48A3 CF3C357A CC541598 BBE5F563 9506D64A DB135312 E4C01DE9 DA697BFF \n E88794E7 A488F683 F4E490CB 38CDC270 6C9FA4A2 39E758E1 7C555B0E 04A3DFD4 \n F43D9CB0 B8D57A2C 1FBDDB92 81024100 E97574A1 C71EFC7B EF4BC70F EA7758F3 \n 4E68D6F3 46833772 EE38AFF6 FB6D713A B685DE90 34D626B8 71BC7C7A 7CB64C9E \n 231137F6 A8D007F5 5F7F7C82 37FCED6D 024100CC 866DD935 B98DE52F C1F22AF1 \n A1B559A6 63FEB6E8 BEF3AE08 6159F88E C2CB8D31 671F04F1 833C3BA0 75616B64 \n 69568AFE 1C79A842 AF2AD089 AF4A8AE1 4AF81902 41008C1A 62EE1B73 6B0E6D63 \n 4A8930AA 830530CF 16005516 B6161104 9005668A 1D63A0D9 E1E124F4 47B474FD \n 2AAECF5D 0FC9EF3D 8C1A48E0 DF85CFD3 D042CD9A CA590241 0091D7A6 4B46893B \n 8ADBA454 58951777 E726C495 64BED133 98BD3716 5E2D06F0 F98CE9F8 EFA07CB1 \n 9DDF4CF4 9C0CED24 9E5697DD 94C3807F 6A57541D 36AD72B5 3902402E 7246EFD5 \n CCAE70A7 9FDD9EAC 782AF000 B99A95D6 F1A5091E A0DF9218 80C94FE3 8866FB67 \n 63C6EDC9 805FB4D2 F48F85C0 BFF2962E 9EEBE727 A50ACDCC BC03\n 6E\n quit\n 30819F30 0D06092A 864886F7 0D010101 05000381 8D003081 89028181 00BA8430 \n 990F9232 C260529C 181D72FE D976B524 976F0BEE 797B10B8 0C990CB7 0ABDC2B8 \n F52AC9D9 D28124E1 D3F9B760 A3A51396 DACB3A1A BE31A593 203F4BA1 C6AE3A71 \n 6C167576 47EF10B3 539D1995 0CBCE725 6285A540 AA300D00 D253638B 3BE63B33 \n CC8C431C 8EFBCD8E F8E6C6F4 008F701E 0A7F8C50 A9326749 7FEC36C7 A5020301 0001\n quit\ncrypto RSA-key-pair R3.PUBLICKEY 0 1504718657\n 30820276 02010030 0D06092A 864886F7 0D010101 05000482 02603082 025C0201 \n 00028181 00AE2F4B 5B3A81B5 E0B41E15 D4FE2CA7 13642DD3 CA3ACF7A DE295150 \n D16A60AB 337A11AF 20645515 33B22757 A2322940 AA969B2B 9B5C6F2A 5BA1BD05 \n 93372FF5 584906CF CCC8B12F D99A8DAD C51E2C47 7D4DA34E 45CFF73E 1D41EB93 \n 8F118469 E1378DC7 A8F24098 13319666 6CE04B39 D7E51C58 3D9D0B91 909DD0AA \n CCEFF003 7D020301 00010281 800711DC 592392C8 330A9C7D FE5B22AC D558A793 \n 850DC606 12A652AA 99155C3F 16A3C9BB F5F09C93 73B9B367 172A3A0A 69E21B02 \n 3618165A FDC51ECA EF22BA4B 96EC9A7B CADA467A 71DE79CF DE0672E0 7E5F5249 \n B6735EF3 91B35AB9 D67A0480 128D392C 36FDE409 15AFC95C E05303D2 AB8BC8D4 \n 97C9D707 899EF49F 308C8900 01024100 D7E78453 112F160B 7526762C 1852DC84 \n 7AC5498C B7FB2681 01DE1D2A CF27E40D 97836506 81A3AA98 01E4F312 E9C40B15 \n B8D05A6F F2544402 BA819175 09A7237D 024100CE 8859F9B5 D71BB257 18130ABF \n B305FDD8 9401927E 3FF29759 6B474F7C 34491806 15069CD9 080BBA3C 7D082B64 \n 9CF69D5D 892A03B6 60F054AC 6DB0855A 02600102 405D971D 7448B9A9 8BB3EFC5 \n 401E1725 424459EB 2515C7C8 0C1A3C27 569C5005 7AA2D831 5DDDAA8D D3B0D687 \n 4C068B95 E687A3C1 E04F229A 0CB8BE5B C86933CB 9D024024 4A9964E3 AB14D6D5 \n AF09498E 3DEB039C 1705DFB4 07909D3F BD361EA5 789A8F7A 221FB357 FFADEFDF \n C928B257 4FAD9621 6584D87A 27B6936A 692BE782 D5800102 4100BBB9 7B6E0984 \n 8255C0AD 66F9AD4D 8CDA8827 C1795153 EB3DD1B2 9DEB1329 5C2810A8 F83B74E2 \n 0FB264E7 D5E05EAE 441BD78E 407AFF1F 94EF4A62 50DBB720 8740\n quit\n 30819F30 0D06092A 864886F7 0D010101 05000381 8D003081 89028181 00AE2F4B \n 5B3A81B5 E0B41E15 D4FE2CA7 13642DD3 CA3ACF7A DE295150 D16A60AB 337A11AF \n 20645515 33B22757 A2322940 AA969B2B 9B5C6F2A 5BA1BD05 93372FF5 584906CF \n CCC8B12F D99A8DAD C51E2C47 7D4DA34E 45CFF73E 1D41EB93 8F118469 E1378DC7 \n A8F24098 13319666 6CE04B39 D7E51C58 3D9D0B91 909DD0AA CCEFF003 7D020301 0001\n quit\nend\n",
+                    "ram": 512,
+                    "sensors": [
+                        22,
+                        22,
+                        22,
+                        22
+                    ],
+                    "slot0": "C7200-IO-2FE",
+                    "slot1": null,
+                    "slot2": null,
+                    "slot3": null,
+                    "slot4": null,
+                    "slot5": null,
+                    "slot6": null,
+                    "sparsemem": true,
+                    "startup_config": "configs/i3_startup-config.cfg",
+                    "startup_config_content": "!\n\n!\nversion 12.2\nno service timestamps debug uptime\nno service timestamps log uptime\nno service password-encryption\n!\nhostname R3\n!\nboot-start-marker\nboot-end-marker\n!\n!\nno aaa new-model\nip subnet-zero\nip source-route\nno ip icmp rate-limit unreachable\n!\n!\n!\n!\nip cef\nno ip domain lookup\nip domain name PUBLICKEY\n!\n!\nmultilink bundle-name authenticated\n!\ncrypto pki trustpoint TP-self-signed-4279256517\n enrollment selfsigned\n subject-name cn=IOS-Self-Signed-Certificate-4279256517\n revocation-check none\n rsakeypair TP-self-signed-4279256517\n!\n!\ncrypto pki certificate chain TP-self-signed-4279256517\n certificate self-signed 01 nvram:IOS-Self-Sig#3701.cer\nusername admin privilege 15 password 0 admin\n!\n!\nip tcp synwait-time 5\n! \n!\n!\n!\n!\n!\ninterface Loopback3\n ip address 192.168.3.1 255.255.255.0\n ip ospf network point-to-point\n!\ninterface Loopback13\n ip address 192.168.13.1 255.255.255.0\n ip ospf network point-to-point\n!\ninterface Loopback133\n ip address 192.168.133.1 255.255.255.0\n ip ospf network point-to-point\n!\ninterface FastEthernet0/0\n no ip address\n shutdown\n speed auto\n duplex auto\n!\ninterface FastEthernet0/1\n ip address 10.1.23.3 255.255.255.0\n ip ospf network point-to-point\n speed auto\n duplex auto\n!\nrouter ospf 100\n log-adjacency-changes\n network 10.1.23.3 0.0.0.0 area 0\n network 192.168.3.1 0.0.0.0 area 0\n network 192.168.13.1 0.0.0.0 area 0\n network 192.168.133.1 0.0.0.0 area 0\n!\nip classless\n!\n!\nno ip http server\nip http secure-server\n!\n!\n!\n!\ncontrol-plane\n!\n!\nline con 0\n exec-timeout 0 0\n privilege level 15\n logging synchronous\n stopbits 1\nline aux 0\n exec-timeout 0 0\n privilege level 15\n logging synchronous\n stopbits 1\nline vty 0 4\n login local\n transport input telnet ssh\nline vty 5 807\n login local\n transport input telnet ssh\n!\nend\n",
+                    "system_id": "FTX0945W0MY"
+                },
+                "symbol": ":/symbols/router.svg",
+                "width": 66,
+                "x": -64,
+                "y": -290,
+                "z": 1
+            },
+            {
+                "compute_id": "local",
+                "console": 5001,
+                "console_type": "telnet",
+                "first_port_name": null,
+                "height": 45,
+                "label": {
+                    "rotation": 0,
+                    "style": "font-family: TypeWriter;font-size: 10.0;font-weight: bold;fill: #000000;fill-opacity: 1.0;",
+                    "text": "R2",
+                    "x": 22,
+                    "y": -25
+                },
+                "name": "R2",
+                "node_id": "b8e59115-1e22-4ec0-8385-368a59712e61",
+                "node_type": "dynamips",
+                "port_name_format": "Ethernet{0}",
+                "port_segment_size": 0,
+                "properties": {
+                    "auto_delete_disks": true,
+                    "aux": null,
+                    "clock_divisor": 4,
+                    "disk0": 0,
+                    "disk1": 0,
+                    "dynamips_id": 2,
+                    "exec_area": 64,
+                    "idlemax": 500,
+                    "idlepc": "",
+                    "idlesleep": 30,
+                    "image": "c7200-advipservicesk9-mz.122-33.SRD4.image",
+                    "image_md5sum": "e9231dfcc8375b42e80a227d0dc6805b",
+                    "mac_addr": "ca02.688f.0000",
+                    "midplane": "vxr",
+                    "mmap": true,
+                    "npe": "npe-400",
+                    "nvram": 512,
+                    "platform": "c7200",
+                    "power_supplies": [
+                        1,
+                        1
+                    ],
+                    "private_config": "configs/i2_private-config.cfg",
+                    "private_config_content": "\nend\n",
+                    "ram": 512,
+                    "sensors": [
+                        22,
+                        22,
+                        22,
+                        22
+                    ],
+                    "slot0": "C7200-IO-2FE",
+                    "slot1": null,
+                    "slot2": null,
+                    "slot3": null,
+                    "slot4": null,
+                    "slot5": null,
+                    "slot6": null,
+                    "sparsemem": true,
+                    "startup_config": "configs/i2_startup-config.cfg",
+                    "startup_config_content": "!\n\n!\nversion 12.2\nno service timestamps debug uptime\nno service timestamps log uptime\nno service password-encryption\n!\nhostname R2\n!\nboot-start-marker\nboot-end-marker\n!\n!\nno aaa new-model\nip subnet-zero\nip source-route\nno ip icmp rate-limit unreachable\n!\n!\n!\n!\nip cef\nno ip domain lookup\n!\n!\nmultilink bundle-name authenticated\n!\n!\n!\n!\nip tcp synwait-time 5\n! \n!\n!\n!\n!\n!\ninterface Loopback0\n ip address 192.168.2.1 255.255.255.0\n ip ospf network point-to-point\n!\ninterface FastEthernet0/0\n ip address 10.1.12.2 255.255.255.0\n ip ospf network point-to-point\n speed auto\n duplex auto\n!\ninterface FastEthernet0/1\n ip address 10.1.23.2 255.255.255.0\n ip ospf network point-to-point\n speed auto\n duplex auto\n!\nrouter ospf 100\n log-adjacency-changes\n network 10.1.12.2 0.0.0.0 area 0\n network 10.1.23.2 0.0.0.0 area 0\n network 192.168.2.1 0.0.0.0 area 0\n!\nip classless\n!\n!\nno ip http server\nno ip http secure-server\n!\n!\n!\n!\ncontrol-plane\n!\n!\nline con 0\n exec-timeout 0 0\n privilege level 15\n logging synchronous\n stopbits 1\nline aux 0\n exec-timeout 0 0\n privilege level 15\n logging synchronous\n stopbits 1\nline vty 0 4\n login\n!\nend\n",
+                    "system_id": "FTX0945W0MY"
+                },
+                "symbol": ":/symbols/router.svg",
+                "width": 66,
+                "x": -384,
+                "y": -292,
+                "z": 1
+            },
+            {
+                "compute_id": "local",
+                "console": 5000,
+                "console_type": "telnet",
+                "first_port_name": null,
+                "height": 45,
+                "label": {
+                    "rotation": 0,
+                    "style": "font-family: TypeWriter;font-size: 10.0;font-weight: bold;fill: #000000;fill-opacity: 1.0;",
+                    "text": "R1",
+                    "x": 22,
+                    "y": -25
+                },
+                "name": "R1",
+                "node_id": "c4f953f6-82dd-46e5-bdc0-1909dd83098f",
+                "node_type": "dynamips",
+                "port_name_format": "Ethernet{0}",
+                "port_segment_size": 0,
+                "properties": {
+                    "auto_delete_disks": true,
+                    "aux": null,
+                    "clock_divisor": 4,
+                    "disk0": 8,
+                    "disk1": 0,
+                    "dynamips_id": 1,
+                    "exec_area": 64,
+                    "idlemax": 500,
+                    "idlepc": "",
+                    "idlesleep": 30,
+                    "image": "c7200-advipservicesk9-mz.122-33.SRD4.image",
+                    "image_md5sum": "e9231dfcc8375b42e80a227d0dc6805b",
+                    "mac_addr": "ca01.688e.0000",
+                    "midplane": "vxr",
+                    "mmap": true,
+                    "npe": "npe-400",
+                    "nvram": 512,
+                    "platform": "c7200",
+                    "power_supplies": [
+                        1,
+                        1
+                    ],
+                    "private_config": "/Users/alex.tylor/GNS3/projects/CCNA/ACL/project-files/dynamips/c4f953f6-82dd-46e5-bdc0-1909dd83098f/configs/i1_private-config.cfg",
+                    "private_config_content": "\nend\n",
+                    "ram": 512,
+                    "sensors": [
+                        22,
+                        22,
+                        22,
+                        22
+                    ],
+                    "slot0": "C7200-IO-2FE",
+                    "slot1": null,
+                    "slot2": null,
+                    "slot3": null,
+                    "slot4": null,
+                    "slot5": null,
+                    "slot6": null,
+                    "sparsemem": true,
+                    "startup_config": "configs/i1_startup-config.cfg",
+                    "startup_config_content": "!\n\n!\nversion 12.2\nno service timestamps debug uptime\nno service timestamps log uptime\nno service password-encryption\n!\nhostname R1\n!\nboot-start-marker\nboot-end-marker\n!\n!\nno aaa new-model\nip subnet-zero\nip source-route\nno ip icmp rate-limit unreachable\n!\n!\n!\n!\nip cef\nno ip domain lookup\n!\n!\nmultilink bundle-name authenticated\n!\n!\n!\n!\nip tcp synwait-time 5\n! \n!\n!\n!\n!\n!\ninterface Loopback1\n ip address 192.168.1.1 255.255.255.0\n ip ospf network point-to-point\n!\ninterface Loopback11\n ip address 192.168.11.1 255.255.255.0\n ip ospf network point-to-point\n!\ninterface Loopback111\n ip address 192.168.111.1 255.255.255.0\n ip ospf network point-to-point\n!\ninterface FastEthernet0/0\n ip address 10.1.12.1 255.255.255.0\n ip ospf network point-to-point\n speed auto\n duplex auto\n!\ninterface FastEthernet0/1\n no ip address\n shutdown\n speed auto\n duplex auto\n!\nrouter ospf 100\n log-adjacency-changes\n network 10.1.12.1 0.0.0.0 area 0\n network 192.168.1.1 0.0.0.0 area 0\n network 192.168.11.1 0.0.0.0 area 0\n network 192.168.111.1 0.0.0.0 area 0\n!\nip classless\n!\n!\nno ip http server\nno ip http secure-server\n!\n!\n!\n!\ncontrol-plane\n!\n!\nline con 0\n exec-timeout 0 0\n privilege level 15\n logging synchronous\n stopbits 1\nline aux 0\n exec-timeout 0 0\n privilege level 15\n logging synchronous\n stopbits 1\nline vty 0 4\n login\n!\nend\n",
+                    "system_id": "FTX0945W0MY"
+                },
+                "symbol": ":/symbols/router.svg",
+                "width": 66,
+                "x": -649,
+                "y": -290,
+                "z": 1
+            }
+        ]
+    },
+    "type": "topology",
+    "version": "2.0.3"
+}
